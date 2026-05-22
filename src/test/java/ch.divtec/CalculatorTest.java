@@ -2,8 +2,6 @@ package ch.divtec;
 
 import org.junit.jupiter.api.Test;
 
-import ch.divtec.Calculator;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 
