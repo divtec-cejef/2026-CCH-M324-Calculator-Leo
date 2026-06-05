@@ -15,6 +15,12 @@
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sonar.host.url>http://172.16.40.10:9000</sonar.host.url>
+        <sonar.token>squ_f578da65cb4bf88ede913c43d8d595543c8fe421</sonar.token>
+        <sonar.projectKey>calculator-project</sonar.projectKey>
+        <sonar.organization>ch.divtec.Calculator</sonar.organization>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>Admlocal1234!</sonar.password>
     </properties>
 
     <dependencies>
@@ -71,6 +77,8 @@
                 </executions>
             </plugin>
 
+
+
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -86,6 +94,12 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>5.0.0.4389</version>
+            </plugin>
+
         </plugins>
     </build>
 </project>
