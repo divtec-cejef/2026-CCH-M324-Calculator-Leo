@@ -19,8 +19,7 @@
         <sonar.token>squ_f578da65cb4bf88ede913c43d8d595543c8fe421</sonar.token>
         <sonar.projectKey>calculator-project</sonar.projectKey>
         <sonar.organization>ch.divtec.Calculator</sonar.organization>
-        <sonar.login>admin</sonar.login>
-        <sonar.password>Admlocal1234!</sonar.password>
+
     </properties>
 
     <dependencies>
